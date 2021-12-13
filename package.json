@@ -1,0 +1,23 @@
+{
+  "name": "testJestDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stovet/testJestDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stovet/testJestDemo/issues"
+  },
+  "homepage": "https://github.com/stovet/testJestDemo#readme",
+  "devDependencies": {
+    "jest": "^27.4.4"
+  }
+}
