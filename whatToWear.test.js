@@ -12,13 +12,13 @@ describe("What to wear", function(){
     //     expect(whatToWear("formal")).toEqual("a suit");
     // });
     test("when to wear something comfy and a coat", function(){
-        expect(whatToWear("casual", 53)).toEqual(`Since it is 53 degrees and you are going to a casual event, you should wear something comfy and a coat`);
+        expect(whatToWear("casual", 53)).toEqual("casual " + 53);
     })
     test("when to wear a polo and a coat", function(){
-        expect(whatToWear("semi-formal", 53)).toEqual(`Since it is 53 degrees and you are going to a semi-formal event, you should wear a polo and a coat`);
+        expect(whatToWear("semi-formal", 53)).toEqual("semi-formal " + 53);
     })
     test("when to wear 'a suit' and a coat", function(){
-        expect(whatToWear("formal", 53)).toEqual(`Since it is 53 degrees and you are going to a formal event, you should wear a suit and a coat`);
+        expect(whatToWear("formal", 52)).toEqual("formal " + 52);
     });
     test("when to wear something comfy and a jacket", function(){
         expect(whatToWear("casual", 55)).toEqual(`Since it is 55 degrees and you are going to a casual event, you should wear something comfy and a jacket`);
